@@ -48,6 +48,11 @@ body{
     display: block;
 }
 
+.cartao--some{
+    opacity: 0;
+    transition: 0.2s ease-in;
+}
+
 @media (min-width: 560px){
     .cartao{
         width: 190px;
@@ -56,4 +61,5 @@ body{
     #mudaLayout{
         display: inline-block;
     }
+
 }
